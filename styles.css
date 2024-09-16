@@ -1,0 +1,110 @@
+/* General Styles */
+body {
+  background-color: #f7f7f7;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+/* Banner Styles */
+.banner {
+  background-color: #fff; /* Blue background */
+  color: #ffca28; /* Yellow text */
+  padding: 15px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.banner-text {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Card Styles */
+.card {
+  background-color: #fff;
+  border: 2px solid #000;
+  box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.card h3 {
+  font-size: 1.3rem;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #0044cc; /* Blue accent */
+}
+
+/* CTA Buttons Styles */
+.cta-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.cta-buttons .btn {
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+  box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+.card-text {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  text-align: left;
+  color: #cc0000; /* Red accent */
+}
+
+/* Profile Picture Styles */
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 2px solid #000;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 10px auto;
+  box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* Floating Button Styles */
+.floating-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #ffca28; /* Yellow accent */
+  border: 2px solid #000;
+  color: #0044cc; /* Blue accent */
+  transition: transform 0.3s;
+}
+
+.floating-btn:hover {
+  transform: scale(1.1);
+}
+
+/* Icon inside Floating Button */
+.floating-btn i {
+  font-size: 24px;
+  line-height: 60px;
+}
