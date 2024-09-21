@@ -1,8 +1,8 @@
 BEGIN:VCARD
 VERSION:3.0
-FN:Bayu Jayasukma
-ORG:PT. Datacomm Diangraha
-EMAIL:bayu.jayasukma@datacomm.co.id
-TEL:+62 811 180 1945
-ADR:;;Grha Datacomm;Jl. Kapten Tendean No. 18A;;Jakarta;Indonesia
+FN:John Doe
+ORG:Example Org
+EMAIL:john.doe@example.com
+TEL:+1234567890
+ADR:;;123 Main St;Any Town;;USA;USA
 END:VCARD
